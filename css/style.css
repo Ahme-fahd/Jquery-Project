@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* html {
+    overflow: hidden;
+} */
+
+.container {
+    width: 100%;
+}
+
+@media (min-width:900px) {
+    .container {
+        width: 75%;
+    }
+}
+
+.top-25 {
+    top: 25%;
+}
+
+.red {
+    color: rgba(214, 46, 51, 0.6);
+}
+
+.bg-red {
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+.arrow-top {
+    width: 50px;
+    height: 50px;
+    display: none;
+    transition: 0.5s;
+}
+
+.arrow-top:hover {
+    background-color: red !important;
+}
+
+#home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/EventGathering.jpg);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.list {
+    left: 0px;
+    width: 0;
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 1.25rem;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.list ul i {
+    transition: 0.5s;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list ul a:hover,
+.list ul i:hover {
+    color: rgba(214, 46, 51, 0.6);
+}
+
+.icon,
+#details .item {
+    cursor: pointer;
+}
+
+#details .item-p {
+    display: none;
+    overflow: hidden;
+}
+
+#details h2 {
+    border-bottom: 1px solid blue;
+    border-left: 5px solid blue;
+}
+
+#duration {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/invitation.jpg);
+    background-size: cover;
+}
+
+.social-icon i {
+    width: 40px;
+    height: 40px;
+    color: #888;
+    border: 1px solid #888;
+    transition: 0.5s;
+}
+
+.social-icon i:hover {
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
