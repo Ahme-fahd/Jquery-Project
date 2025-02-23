@@ -1,3 +1,2 @@
-# RouteJobFair
-RouteJobFair Designed
+## Job Fair Web App is a dynamic platform built with jQuery that connects job seekers with employers. It allows users to browse job listings, register for events, and apply for opportunities in an interactive and user-friendly interface. The app features smooth animations, filtering options, and real-time updates for an enhanced experience. Perfect for improving DOM manipulation and event handling using jQuery! 💼🚀
 ## Live Demo 🚀:https://ahme-fahd.github.io/Jquery-Project/
